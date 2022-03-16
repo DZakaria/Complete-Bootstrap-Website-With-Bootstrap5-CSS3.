@@ -1,0 +1,236 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+
+    background-color: black;
+    padding: 1rem 8rem;
+    z-index: 1000;
+
+}
+
+.navbar .navbar-brand{
+    font-size:1.4rem;
+    font-weight: 700;
+
+}
+
+.navbar .container-fluid .nav-item .nav-link{
+     color:#fff;
+     font-size: 1.1rem;
+     padding:0 0.8rem;
+}
+.navbar .container-fluid .nav-item .nav-link:hover{
+    color: #00BF85;
+}
+
+#navbarSupportedContent > button{
+    background:#00BF85;
+    font-weight: 500;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+.mid{
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translateY(-50%);
+}
+.hero{
+    position: relative;
+}
+
+.mid .hero p{
+    width:50%;
+    font-size:1.1rem;
+    letter-spacing: 2px;
+    padding-bottom: 1.2rem;
+}
+
+
+.mid .hero a{
+background:#00BF85;
+font-weight: 500;
+padding: 0.5rem 1.4rem;
+border-radius: 30px;
+text-decoration: none;
+}
+.mid .hero a:hover{
+    background: #fff;
+}
+
+/* About */
+
+.about{
+
+    background-color: black;
+
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text  h6{
+    color:#00BF7F;
+    font-weight:800;
+    font-size: 1rem;
+    letter-spacing:2px;
+}
+
+.about .text  h2{
+    color:#F7F5F4;
+    font-weight:700;
+    font-size: 2.7rem;
+}
+.about .text  p{
+    color:#F7F5F4;
+    font-weight:300;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+ }
+
+ .about .text a{
+
+    background:#00BF85;
+    font-weight: 500;
+    border-radius: 40px;
+    padding:10px;
+    text-decoration: none;
+    color:#111;
+}
+
+
+/*discovery*/
+.discovery  .text  h6{
+    color:#00BF7F;
+    font-weight:800;
+    font-size: 1rem;
+    letter-spacing:2px;
+}
+
+
+.discovery  .text p{
+    
+color:black;
+font-weight:300;
+font-size: 1.1rem;
+letter-spacing: 0.5px;
+}
+
+.discovery  .text  a{
+    background:black;
+    font-weight: 500;
+    border-radius: 40px;
+    padding:10px;
+    text-decoration: none;
+    color:#fff;
+
+}
+
+/* Service*/
+.services{
+    background-color: black;
+}
+.services .one {
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:2rem 1.5rem;
+
+}
+
+
+
+.discovery .text  h2{
+    color:black;
+    font-weight:700;
+    font-size: 2.7rem;
+}
+
+.services .one h5{
+padding: 1rem 1.2rem;
+font-weight:800;
+font-size: 1rem;
+letter-spacing:2px;
+
+}
+
+.services .one p{
+    
+    color:black;
+    font-weight:300;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    }
+    
+/*Sing Up  */
+
+.join .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.join .text  h6{
+    color:#00BF7F;
+    font-weight:800;
+    font-size: 1rem;
+    letter-spacing:2px;
+}
+
+.join .text  h2{
+    color:#111;
+    font-weight:700;
+    font-size: 2.7rem;
+}
+.join .text  p{
+    color:#111;
+    font-weight:300;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+ }
+
+ .join .text a{
+    background:black;
+    font-weight: 400;
+    border-radius: 30px;
+    padding:10px;
+    text-decoration: none;
+    color:#fff;
+}
+
+.footer{
+    background:#111!important;
+}
